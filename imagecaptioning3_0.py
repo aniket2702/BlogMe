@@ -65,7 +65,7 @@ def captionimage(image):
     return cap
 
 def blogwriter(capt):
-    openai.api_key = "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"
+    openai.api_key = "YOUR_API_KEY"
 
     response = openai.Completion.create(
         model="text-davinci-002",
